@@ -12,3 +12,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+}
+
+.default {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #d9d9d9;
+}
+
+.dashed {
+  background-color: #fff;
+  color: #333;
+  border: 1px dashed #d9d9d9;
+}
+
+.text {
+  background-color: #fff;
+  color: #1890ff;
+  border: none;
+}
+
+.link {
+  background-color: transparent;
+  color: #1890ff;
+  border: none;
+}
+

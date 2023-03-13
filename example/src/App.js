@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './index.css';
 
-import { ExampleComponent } from 'trap-button'
-import 'trap-button/dist/index.css'
+const Button = ({type, children}) => {
+  return (
+    <button className={`button ${type}`}>
+      {children}
+    </button>
+  );
+};
 
-const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+export default Button;
 
-export default App
